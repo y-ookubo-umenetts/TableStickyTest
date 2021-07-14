@@ -1,0 +1,39 @@
+div.target {
+    height: 10rem;
+    width: 500px;
+    overflow: scroll;
+    margin: 0;
+    padding: 0;
+}
+
+div.target > table {
+    table-layout: fixed;
+    width: 100%;
+    margin: 0;
+}
+
+div.target > table thead{
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+    background: white;
+}
+
+div.target > table tr > th {
+    position: sticky;
+    left: 0px;
+    z-index: 2;
+    background: white;
+}
+
+div.target > table th.id-cell {
+    width: 5rem;
+}
+
+div.target > table th.value-cell {
+    width: 30rem;
+}
+
+input.input-selector::placeholder {
+    color: black;
+}
